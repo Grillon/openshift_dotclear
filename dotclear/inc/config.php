@@ -24,7 +24,7 @@ define('DC_DBUSER',$_SERVER['OPENSHIFT_MYSQL_DB_USERNAME']);
 define('DC_DBPASSWORD',$_SERVER['OPENSHIFT_MYSQL_DB_PASSWORD']);
 
 // Database name
-define('DC_DBNAME','dotclear_'.$_SERVER['OPENSHIFT_APP_NAME']);
+define('DC_DBNAME',$_SERVER['OPENSHIFT_APP_NAME']);
 
 // Tables' prefix
 define('DC_DBPREFIX','dc_');
