@@ -1,0 +1,4 @@
+cd $OPENSHIFT_REPO_DIR
+wget http://download.dotclear.org/latest.tar.gz
+tar -xzvf latest.tar.gz
+rm latest.tar.gz
